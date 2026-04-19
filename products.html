@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Collection | Designs by OVKB</title>
+    <meta name="description" content="View our collection of premium, minimalist greeting cards.">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-cream min-h-screen flex flex-col">
+    <!-- Navigation -->
+    <nav class="fixed w-full top-0 z-50 nav-blur border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="serif text-2xl font-bold tracking-tight text-charcoal">OVKB.</a>
+            <div class="space-x-8 text-sm uppercase tracking-widest font-medium">
+                <a href="index.html" class="hover:text-gold transition-colors">Home</a>
+                <a href="products.html" class="hover:text-gold transition-colors accent-gold">Products</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="pt-40 pb-16 px-6">
+        <div class="max-w-7xl mx-auto text-center fade-in">
+            <h1 class="text-4xl md:text-5xl font-bold text-charcoal serif mb-4">Our Collection</h1>
+            <p class="text-gray-500 italic font-light tracking-wide">Handcrafted designs for your most cherished moments.</p>
+            <div class="w-12 h-1 bg-gold mx-auto mt-8"></div>
+        </div>
+    </header>
+
+    <!-- Gallery Section -->
+    <main class="flex-grow pb-24 px-6">
+        <div class="max-w-7xl mx-auto">
+            <!-- Dynamic Grid -->
+            <div id="gallery-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+                <!-- Skeleton Loaders -->
+                <div class="animate-pulse flex flex-col space-y-4">
+                    <div class="h-96 bg-white rounded-lg border border-gray-100 shadow-sm"></div>
+                    <div class="h-4 bg-gray-200 w-3/4 rounded mx-auto"></div>
+                </div>
+                <div class="animate-pulse flex flex-col space-y-4">
+                    <div class="h-96 bg-white rounded-lg border border-gray-100 shadow-sm"></div>
+                    <div class="h-4 bg-gray-200 w-3/4 rounded mx-auto"></div>
+                </div>
+                <div class="animate-pulse flex flex-col space-y-4">
+                    <div class="h-96 bg-white rounded-lg border border-gray-100 shadow-sm"></div>
+                    <div class="h-4 bg-gray-200 w-3/4 rounded mx-auto"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white py-16 border-t border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h3 class="serif text-3xl font-bold mb-6">OVKB.</h3>
+            <p class="text-gray-500 text-sm mb-8 tracking-widest uppercase">© 2024 Designs by OVKB. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gold: '#B59B6D',
+                        charcoal: '#2D2D2D',
+                        cream: '#FDFBF7',
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>

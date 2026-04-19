@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designs by OVKB | Premium Greeting Cards</title>
+    <meta name="description" content="Exquisite, minimalist greeting cards by OVKB. Every design tells a story.">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-cream">
+    <!-- Navigation -->
+    <nav class="fixed w-full top-0 z-50 nav-blur border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="serif text-2xl font-bold tracking-tight text-charcoal">OVKB.</a>
+            <div class="space-x-8 text-sm uppercase tracking-widest font-medium">
+                <a href="index.html" class="hover:text-gold transition-colors accent-gold">Home</a>
+                <a href="products.html" class="hover:text-gold transition-colors">Products</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="pt-32 pb-20 px-6">
+        <div class="max-w-7xl mx-auto text-center fade-in">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 text-charcoal leading-tight">
+                Every design <br> <span class="italic font-normal">tells a story.</span>
+            </h1>
+            <p class="text-lg md:text-xl text-gray-600 mb-10 max-w-2xl mx-auto font-light leading-relaxed">
+                A collection of premium, minimalist greeting cards crafted with passion and artistic precision.
+            </p>
+            <a href="products.html" class="inline-block bg-charcoal text-white px-10 py-4 rounded-full text-sm uppercase tracking-widest hover:bg-black transition-all transform hover:-translate-y-1">
+                Explore Designs
+            </a>
+        </div>
+    </header>
+
+    <!-- About Section (Moved from about.html) -->
+    <section class="py-20 px-6 bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+                <!-- Left: Artistic Image -->
+                <div class="fade-in">
+                    <div class="relative group">
+                        <div class="absolute -inset-4 bg-gold opacity-10 blur-xl group-hover:opacity-20 transition duration-1000"></div>
+                        <img 
+                            src="https://images.unsplash.com/photo-1544391682-17ef1f24ff3a?auto=format&fit=crop&q=80&w=1000" 
+                            alt="Artist working" 
+                            class="relative w-full h-[500px] object-cover shadow-2xl rounded-sm"
+                        >
+                        <p class="mt-6 serif italic text-xl text-gray-700 text-center">
+                            "Every design tells a story."
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Right: Bio -->
+                <div class="fade-in" style="animation-delay: 0.2s;">
+                    <span class="text-gold uppercase tracking-[0.3em] font-medium text-xs mb-4 block">Meet the Artist</span>
+                    <h2 class="text-5xl font-bold serif text-charcoal mb-8 leading-tight">Oshadha & Broody</h2>
+                    
+                    <div class="space-y-6 text-gray-600 leading-loose text-lg font-light">
+                        <p>
+                            Designs by OVKB was born out of a desire to bring back the warmth of physical cards in a digital age. Founded by Oshadha, the brand focuses on the intersection of modern minimalism and emotional depth.
+                        </p>
+                        <p>
+                            Based in his home studio, Oshadha finds inspiration in the subtle details of nature and architecture. Each card is designed to be a piece of art that stays long after the occasion has passed.
+                        </p>
+                        <p>
+                            The workspace is rarely quiet, though. Oshadha's constant companion, Broody—a spirited and loving golden-hearted dog—is always close by, often sleeping under the desk as the designs come to life. 
+                        </p>
+                    </div>
+
+                    <div class="mt-12 flex items-center space-x-6">
+                        <div class="w-16 h-px bg-gold"></div>
+                        <span class="serif italic text-xl text-charcoal">OVKB.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-cream py-16 border-t border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h3 class="serif text-3xl font-bold mb-6">OVKB.</h3>
+            <p class="text-gray-500 text-sm mb-8 tracking-widest uppercase">© 2024 Designs by OVKB. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gold: '#B59B6D',
+                        charcoal: '#2D2D2D',
+                        cream: '#FDFBF7',
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>
