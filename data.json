@@ -1,31 +1,4 @@
 {
-  "settings": {
-    "whatsappNumber": "94770000000"
-  },
-  "greetingCards": [
-    {
-      "id": 1,
-      "title": "Golden Sunset",
-      "image": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&q=80&w=800",
-      "date": "2024-04-19"
-    },
-    {
-      "id": 2,
-      "title": "Minimalist Bloom",
-      "image": "https://images.unsplash.com/photo-1526047932273-341f2a7631f9?auto=format&fit=crop&q=80&w=800",
-      "date": "2024-04-18"
-    },
-    {
-      "id": 3,
-      "title": "Abstract Waves",
-      "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=800",
-      "date": "2024-04-17"
-    },
-    {
-      "id": 1776622800157,
-      "title": "test 01",
-      "image": "https://raw.githubusercontent.com/janiruhansaga/test/main/images/card_1776622794498_Gemini_Generated_Image_p0dggbp0dggbp0dg.png",
-      "date": "April 2026"
-    }
-  ]
+  "whatsappNumber": "94700000000",
+  "greetingCards": []
 }
