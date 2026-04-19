@@ -1,4 +1,11 @@
 {
   "whatsappNumber": "94700000000",
-  "greetingCards": []
+  "greetingCards": [
+    {
+      "id": 1776622965412,
+      "title": "2025",
+      "image": "https://raw.githubusercontent.com/janiruhansaga/test/main/images/card_1776622960534_Gemini_Generated_Image_mi6afvmi6afvmi6a.png",
+      "date": "April 2026"
+    }
+  ]
 }
